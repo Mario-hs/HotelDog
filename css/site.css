@@ -1,0 +1,38 @@
+.container{
+    display: grid;
+    grid-template-areas: 
+        "header header header header"
+        "aside main main main"
+        "footer footer footer footer"
+    ;
+    grid-template-rows: 1fr 4fr 1fr;
+    min-height: 100vh;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    border:0px solid #FAFAFA;
+}
+
+.header, .second{
+    grid-area: header;
+    background-color: #2c277b;
+}
+
+.main{
+    grid-area: main;
+    background-color: #2c277b;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+}
+
+.aside, .third{
+    grid-area: aside;
+    background-color: #f1f2f6;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: #2c277b;
+}

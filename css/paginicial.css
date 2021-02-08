@@ -1,0 +1,99 @@
+.menu{
+    width: auto;
+    padding: 15px 3.5vh;
+    display: flex;
+    flex-flow: wrap;
+    background: #2c277b;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu input[type="search"]{
+    border: 2px solid #ffa200;
+    border-radius: 5px;
+    padding: 14px 15px;
+    width: 55%;
+    transition: 0.25s;
+}
+
+.menu input[type="submit"], .menu label{
+    margin: auto;
+    color: white;
+    margin: auto;
+    padding: 10px 10px;
+    background: none;
+    border: none;
+}
+.exit{
+    background: #eb3b5a;
+    border-radius: 5px;
+    transition: 0.25;
+}
+
+.card-icon{
+    font-size: 30px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px !important;
+}
+
+.icon-dog img{
+    background-color: #ffa200;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin: auto 7.5px;
+}
+
+.sub-menu{
+    width: 100%;
+    display: inline-flex;
+    flex-flow: wrap;
+    justify-content: center;
+    flex: 0 0 25%;
+    padding-bottom: 30px;
+    margin: 30px;
+    max-inline-size: -webkit-fill-available;
+    border-bottom: solid 1px;
+}
+
+.sub-menu input{
+    width: 210px;
+    height: 50px;
+    margin: 10px 20px;
+    border: none;
+    color: #2c277b;
+    font-weight: bold;
+}
+
+
+.second{
+    padding: 35px 55px 55px;
+    background: white;
+}
+
+.second label{
+    font-size: 30px;
+}
+
+.destaques{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    padding: auto 10px;
+}
+
+.col-1{
+    background: #ffa200;
+    margin: 15px;
+    flex: 0 0 25%;
+    max-width: 25%;
+    width: 226px;
+    height: 180px;
+}
+
+.formulario-footer input[type="submit"]{
+    min-width: 27.5%;
+    margin: 10px 10px;
+}

@@ -1,0 +1,273 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.2vh;
+    margin: 0px;
+}
+
+body input{
+    font-size: 2.2vh;
+    cursor: pointer;
+}
+
+.card{
+    background: none;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.card-icon{
+    font-size: 40px;
+    background: #ffa200;
+    color: white;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height:65px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+
+.card:hover .card-icon{
+    background: none;
+    color: #ffa200;
+    transform: scale(1.6);
+}
+
+.card p {
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+
+.card:hover p{
+    max-height: 40px;
+    opacity: 1;
+}
+
+.card-icon.social{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px !important;
+}
+
+.container-footer{
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+    display: contents;
+}
+
+.item{
+    min-height: 70vh;
+}
+
+.main input[type = "submit"]:hover{
+    background: #ffa200;
+}
+
+.main input[type="search"]{
+    border: 2px solid #ffa200;
+    padding: 14px 15px;
+    width: 200px;
+    transition: 0.25s;
+}
+
+.main, .main a, .main input[value="HotelDog"], .main input[value="Entrar"], .main input[value="Criar conta"]{
+    min-height: 5vh;
+    place-content: center;
+    color: white;
+    text-decoration: blink;
+}
+
+.main{
+    display: flex;
+    padding: 25px 25px 5px;
+    flex-wrap: wrap;
+}
+
+.main span{
+    text-transform: uppercase;
+}
+
+.main img{
+    width: 70%;
+    height: 10%;
+}
+
+.main input{
+    display: block;
+    border: solid 1.5px #303952;
+    padding: 14px 10px ;
+    outline: none;
+    color: black;
+    border-radius: 5px ;
+}
+
+.main input[type="submit"]{
+    background: none;
+    border: none;
+}
+
+.main div{
+    margin: 0 35px 20px;
+}
+
+.main-1{
+    width: 100%;
+    min-height: 30vh;
+    margin: 0 10%;
+    background: white;
+}
+
+.main-1 h1{
+    text-align: center;
+    font-size: 4vh;
+}
+
+.main-1 p{
+    text-align: center;
+    font-size: 3.5vh;
+}
+
+.main-1 h2{
+    font-size: 2.5vh;
+    font-weight: normal;
+    margin: 12px auto auto 6vh;
+}
+
+.opcao{
+    display: flex;
+    justify-content: center;
+}
+
+.opcao input{
+    background: #2c277b;
+    margin: 10px auto auto 5vh;
+    border: solid 1.5px #2c277b;
+    padding: 14px 10px ;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 5px ;
+}
+
+.submain{
+    display: inline-flex;
+    margin: 20px;
+    max-width: 95%;
+    flex-wrap: wrap;
+}
+
+.submain input, .submain select{
+    background: none;
+    display: block;
+    margin: 10px auto auto 5vh;
+    border: solid 1.5px #2c277b;
+    padding: 14px 10px ;
+    width: 220px;
+    outline: none;
+    color: black;
+    border-radius: 5px ;
+
+}
+
+.info{
+    margin: auto 10%;
+}
+
+.third{
+    display: flow-root;
+}
+
+.third h3{
+    color: #2c277b;
+    font-size: 4.5vh;
+    text-align: center;
+    margin: 30px auto 0px auto
+}
+
+.third h4{
+    color: #eb3b5a;
+    font-size: 3vh;
+    margin: auto 30px;
+}
+
+.social{
+    margin: 0 10px;
+}
+
+.formulario-footer{
+    width: 55%;
+    min-height: 30vh;
+    text-align: center;
+}
+
+.formulario-footer input{
+    margin: 10px auto auto auto;
+    border: solid 1.5px #2c277b;
+    padding: 14px 10px;
+    min-width: -webkit-fill-available;
+    outline: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.formulario-footer input[type="submit"]{
+    background-color: #ffa200;
+    color: white;
+    font-variant-caps: all-small-caps;
+    border-radius: 50px;
+    min-width: 70%;
+}
+ul{
+    text-align-last: center;
+    margin: 50px 0 50px; 
+    list-style: none; 
+    padding: 0px; 
+    font-size: 2.5vh;
+}
+
+.bairro{
+    justify-content: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.bairro li{
+    width: 40vh;
+    height: 19vh;
+    padding: 0px 20px;
+}
+
+.formulario-footer p{
+    font-size: 2.7vh;
+    color: white;
+    margin: 30px auto 15px;
+}
+
+.container-serv{
+    display: inline-flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin: 5vh auto 5vh; 
+    width: 100%;
+}
+
+.serv{
+    margin: auto 5vh;
+    height: 20vh; 
+    align-items: center; 
+    justify-content: center;
+    width: 50vh;
+    border: solid white 2px;
+    padding: 20px;
+}
